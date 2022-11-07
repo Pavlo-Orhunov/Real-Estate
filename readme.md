@@ -12,5 +12,6 @@ _Частина 2 Прямий ефір відбувся 26 серпня 2022 р
 
 `Лінк на відео`<br>
 
-https://youtu.be/15LuYG5bmrg
+<!-- https://youtu.be/15LuYG5bmrg -->
+
 [![Адаптивна верстка сайту для початківців. Пояснення дій.](https://img.youtube.com/vi/15LuYG5bmrg/hqdefault.jpg "Адаптивна верстка сайту для початківців. Пояснення дій.")](https://youtu.be/15LuYG5bmrg)
