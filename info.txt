@@ -1,0 +1,14 @@
+Адаптивна верстка сайту для початківців. Пояснення дій. HTML CSS FIGMA.
+
+Часть 1 Прямой эфир состоялся 23 авг. 2022 г.
+https://youtu.be/15LuYG5bmrg?t=6385 - вынос стрелок слайдера SWIPER за пределы самого слайдера.
+https://youtu.be/15LuYG5bmrg?t=6855
+
+Часть 2 Прямой эфир состоялся 26 авг. 2022 г.
+https://youtu.be/xqVPCh1XeCI?t=6161 - пишем табы на JS
+https://youtu.be/xqVPCh1XeCI?t=8766 - rating
+https://youtu.be/xqVPCh1XeCI?t=9620
+
+
+
+

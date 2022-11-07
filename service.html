@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Заголовок страницы, на самой странице ничего не отображается -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- Тело страницы, отображается на экране браузера -->
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__container">
+          <a href="./index.html" class="header__logo">SmartSpace</a>
+          <!-- нужно будет сделать бургер сюда  -->
+          <div class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./index.html" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="./service.html" class="menu__link">Service</a>
+              </li>
+              <li class="menu__item">
+                <a href="./portfolio.html" class="menu__link">Portfolio</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page">
+        <div class="matrix"></div>
+        <section class="page__service service page__service--service">
+          <div class="service__container">
+            <h2 class="service__title title">Featured Listing of the Week</h2>
+            <div class="service__body">
+              <div class="service__images images-service">
+                <div class="images-service__item">
+                  <img src="./img/service/01.jpg" alt="House" />
+                </div>
+                <div class="images-service__item images-service__item--min">
+                  <img src="./img/service/02.jpg" alt="Office" />
+                </div>
+              </div>
+              <div class="service__content content-service">
+                <div class="content-service__body">
+                  <h3 class="content-service__title">
+                    The and collecting for the motionless difficulty son.
+                  </h3>
+                  <!-- здесь можно тег "p" обернуть в "div" с классом content-service__text, а тег "p" будет без класса. Такой вариант можно использовать, если данные будут в последующем подгружаться из CMS -->
+                  <p class="content-service__text">
+                    Conveying or northward offending admitting perfectly my.
+                    Colonel gravity get thought fat smiling add but difficult
+                    situations.
+                  </p>
+                  <ul class="content-service__options options-content-service">
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Budget</h4>
+                      <p class="options-content-service__value">Confidential</p>
+                    </li>
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Size</h4>
+                      <p class="options-content-service__value">1200 m2</p>
+                    </li>
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Type</h4>
+                      <p class="options-content-service__value">Office</p>
+                    </li>
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Status</h4>
+                      <p class="options-content-service__value">Done</p>
+                    </li>
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Location</h4>
+                      <p class="options-content-service__value">Switzerland</p>
+                    </li>
+                    <li class="options-content-service__item">
+                      <h4 class="options-content-service__heading">Flat</h4>
+                      <p class="options-content-service__value">8 Room</p>
+                    </li>
+                  </ul>
+                  <a href="#" class="content-service__link crimson__button"
+                    >YES! I WANT BOOK “OFFICE PACKAGE”</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <nav class="header__container">
+            <a href="#" class="header__logo">SmartSpace</a>
+            <!-- нужно будет сделать бургер сюда  -->
+            <div class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./service.html"
+                    class="menu__link"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >Service</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./portfolio.html"
+                    class="menu__link"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="copyright">
+            Copyright &copy; 2021 AR Shakir. All Rights Reseved.
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
