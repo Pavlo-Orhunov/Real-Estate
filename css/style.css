@@ -577,7 +577,7 @@ a:focus {
   }
   .form-main-block {
     min-height: 75px;
-    margin-right: -330px;
+    /* margin-right: -330px; */
   }
   .body-main-block__slider {
     position: relative;
